@@ -1,0 +1,187 @@
+[
+  {
+    "id" : 1,
+    "category_id" : 1,
+    "name" : "honeycrisp apple",
+    "image" : "apple.jpg",
+    "description" : "True to its name, the honeycrisp is sweet and crunchy with a warm, yellow interior and an attractive yellow-red streaked skin. We love this healthy treat packed in a lunch, sliced for after-school snacks or as a take-along for your anytime snacking.",
+    "price" : 2.20
+  },
+  {
+    "id" : 2,
+    "category_id" : 1,
+    "name" : "avocado",
+    "image" : "avocado.jpg",
+    "description" : "These gorgeous Hass avocados are shipped to you ready to eat! Don't delay in enjoying the buttery texture and rich, slightly sweet flavor. We love to plump up burritos, sandwiches and salads with these 'butter pears,' but they also make a satisfying addition to health smoothies to start your day off right.",
+    "price" : 5.70
+  },
+  {
+    "id" : 3,
+    "category_id" : 1,
+    "name" : "banana",
+    "image" : "banana.jpg",
+    "description" : "The banana is an anytime, year-round snack. We like them fully yellow with just a dusting of brown freckles. But super-ripe, meltingly sweet bananas and firmer greenish ones have their fans too. Slice them onto cereal or pancakes, fold into fruit salad, blend into smoothies, and bake into muffins. Heat brings out bananas' creamy sweetness. Try baking, broiling, or sautéing them with butter and sugar for a luscious dessert.",
+    "price" : 2.20
+  },
+  {
+    "id" : 4,
+    "category_id" : 1,
+    "name" : "goldmine nectarine",
+    "image" : "nectarine.jpg",
+    "description" : "Goldmine nectarine is a popular heirloom still regarded by many as one of the best flavored. The Goldmine nectarine was first discovered in a private garden in New Zealand in the late 1800's as a chance seedling. Red over yellow-green skin, free stone variety. Goldmine nectarines are aromatic, sweet, juicy, white fleshed fruit.",
+    "price" : 2.10
+  },
+  {
+    "id" : 5,
+    "category_id" : 1,
+    "name" : "golden pineapple",
+    "image" : "pineapple.jpg",
+    "description" : "The Golden is a pineapple that's been to charm school. The tartness has been reined in just a bit. It is sweeter and mellower than other pineapples. The Golden is a good mixer in yogurt or fruit salad and a surefire hit with kids.",
+    "price" : 3.25
+  },
+  {
+    "id" : 6,
+    "category_id" : 1,
+    "name" : "plum",
+    "image" : "plum.jpg",
+    "description" : "Shiny and slightly bumpy on the outside, a sweet, juicy yellow-red on the inside. Besides being exceptionally good eating, this is one of the best cooking plums. Use black plums for preserves, compotes, sauces, or tarts. Leave the skins on and your finished product will have a rich, deep purple color.",
+    "price" : 1.10
+  },
+  {
+    "id" : 7,
+    "category_id" : 1,
+    "name" : "sweet melon",
+    "image" : "sweet_melon.jpg",
+    "description" : "Hailing from the Italian countryside, this sweet, orange cantaloupe is known for its netted exterior and deep, distinct grooves. The patterns on its outer rind is a flavor indicator of its exceptionally sweet and seductively musky, orange inner flesh. Slice up into ready-to-eat chunks or mix with other fruit for a salad.",
+    "price" : 0.90
+  },
+  {
+    "id" : 8,
+    "category_id" : 2,
+    "name" : "broccoli",
+    "image" : "broccoli.jpg",
+    "description" : "One of the ultimate veggies in nutrient profile - Vitamin K & C. Steam it, bake, saute it, puree it, drink it they are all great meals.",
+    "price" : 1.40
+  },
+  {
+    "id" : 9,
+    "category_id" : 2,
+    "name" : "carrots",
+    "image" : "carrots.jpg",
+    "description" : "Intensely sweet. They're super-crunchy raw. Cut them into disks and flash-steam. Five minutes does the trick. Trim the greens so they don't suck the moisture out of the eating part.",
+    "price" : 0.50
+  },
+  {
+    "id" : 10,
+    "category_id" : 2,
+    "name" : "garlic",
+    "image" : "garlic.jpg",
+    "description" : "Medicinal plant, highly recommended for most sicknesses such as colds. Its robust flavour and powerful anti-inflammatory properties are very effective. Can be used raw, in salads or meats.",
+    "price" : 0.40
+  },
+  {
+    "id" : 11,
+    "category_id" : 2,
+    "name" : "onion",
+    "image" : "onion.jpg",
+    "description" : "Onions add crunch & pinch to sandwiches, salads and burgers. A cooking favourite for flavour. Has strong anti-inflammatory properties benefiting heart health and cancer fighting compounds.",
+    "price" : 0.50
+  },
+  {
+    "id" : 12,
+    "category_id" : 2,
+    "name" : "peppers",
+    "image" : "peppers.jpg",
+    "description" : "Great source of Vit B6 & folate. Often referred to as sweet due flavourful taste. Good in salads to bring out the gorgeous colours.",
+    "price" : 0.80
+  },
+  {
+    "id" : 13,
+    "category_id" : 2,
+    "name" : "red cabbage",
+    "image" : "red_cabbage.jpg",
+    "description" : "The purple-robed prince among cabbages. It has an intense musky flavor and sweet snappiness. Red cabbage can be stewed, braised, or even curried. It's crispy when you scoop the raw leaves into dip. Crunchy when you stir-fry small wedges. A silky herbal accent on the tongue when you add chopped leaves to stew or soup.",
+    "price" : 0.45
+  },
+  {
+    "id" : 14,
+    "category_id" : 2,
+    "name" : "tomato",
+    "image" : "tomato.jpg",
+    "description" : "Heavy, fleshy, and versatile, we can bring you these tangy, sturdy, almost smoky-flavored tomatoes all through the year. In Italy they serve layers of sliced beefsteaks, fresh mozzarella, and whole basil leaves, with a drizzle of good olive oil and a little balsamic vinegar. Top your burger or roast beef sandwich with a thick, juicy slice of beefsteak.",
+    "price" : 1.10
+  },
+  {
+    "id" : 15,
+    "category_id" : 3,
+    "name" : "apple cherry juice",
+    "image" : "apple_cherry_juice.jpg",
+    "description" : "100% juice made exclusively of apples and cherries from certified organic farming. Do you know that ripe cherries draw sweetness from the sun during the day and acquire acidity at night?",
+    "price" : 2.50
+  },
+  {
+    "id" : 16,
+    "category_id" : 3,
+    "name" : "apple juice",
+    "image" : "apple_juice.jpg",
+    "description" : "100% juice made exclusively of apples from certified organic farming. At the base of the food pyramid are vegetables and fruits. Replace part of the recommended daily portion of fruits and vegetables with 100% apple juice and Bio.",
+    "price" : 2.30
+  },
+  {
+    "id" : 17,
+    "category_id" : 3,
+    "name" : "blackberries juice",
+    "image" : "blackberries_juice.jpg",
+    "description" : "The sweetness of blackberries in a large portion! 100% juice, just from organic fruit, is an ideal choice. Discover the taste of tradition in a completely new, organic way!",
+    "price" : 2.70
+  },
+  {
+    "id" : 18,
+    "category_id" : 3,
+    "name" : "orange juice",
+    "image" : "orange_juice.jpg",
+    "description" : "100% juice made exclusively from oranges from certified organic farming. At the base of the food pyramid are vegetables and fruits. Replace part of the recommended daily portion of fruit and vegetables with 100% orange juice I am Bio. Its energy value is almost identical to fresh orange fruit (about 45 kcal / 100 ml), which is why it is eagerly chosen by those who care for a good metabolism.",
+    "price" : 2.50
+  },
+  {
+    "id" : 19,
+    "category_id" : 3,
+    "name" : "pickled beet juice",
+    "image" : "pickled_beet_juice.jpg",
+    "description" : "100% juice made exclusively from pickled beets from certified organic farming. Juice beetroot is best eaten regularly every day, which can have a positive effect on our body due to a low (acidic) pH reaction.",
+    "price" : 2.20
+  },
+  {
+    "id" : 20,
+    "category_id" : 3,
+    "name" : "pomegranate juice",
+    "image" : "pomegranate_juice.jpg",
+    "description" : "100% juice made exclusively from pomegranates from certified organic farming. Pomegranate fruits contain polyphenols, antioxidants and also phytohormones that have a beneficial effect on the body's immune system. Regular consumption of them can significantly affect the psyche, soothing and relieving tension.",
+    "price" : 2.20
+  },
+  {
+    "id" : 21,
+    "category_id" : 4,
+    "name" : "truly tropical granola",
+    "image" : "truly_tropical_granola.jpg",
+    "description" : "A tropical vacation for your mouth! This granola has a bounty of gluten-free oats, buttery cashews, coconut and lightly sweetened mango that makes for a truly addictive snack!",
+    "price" : 3.20
+  },
+  {
+    "id" : 22,
+    "category_id" : 4,
+    "name" : "home sweet honey granola",
+    "image" : "home_sweet_honey_granola.jpg",
+    "description" : "Sweet enough to bring home! This granola contains the homemade goodness of raw wildflower honey and golden coconut flakes, along with plenty of crunch!",
+    "price" : 3.50
+  },
+  {
+    "id" : 23,
+    "category_id" : 4,
+    "name" : "chocolate decadence granola",
+    "image" : "chocolate_decadence_granola.jpg",
+    "description" : "A delectable pairing of chocolate and granola! Gourmet chocolate bits mixed with toasted oats, almonds, coconut, and glazed with Vermont & New Hampshire pure maple syrup. This granola is a perfect chocolate lover’s snack!",
+    "price" : 3.20
+  }
+
+]

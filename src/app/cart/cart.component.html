@@ -1,0 +1,118 @@
+<div class="hero-wrap hero-bread" style="background-image: url('assets/images/bg_1.jpg');">
+  <div class="container">
+    <div class="row no-gutters slider-text align-items-center justify-content-center">
+      <div class="col-md-9 text-center">
+        <h1 class="mb-0 bread">My Cart</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section  class="ftco-section ftco-cart">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 ">
+        <div class="cart-list">
+          <table  class="table">
+            <thead class="thead-primary">
+              <tr class="text-center">
+                <th>Remove</th>
+                <th>Product image</th>
+                <th>Product name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <ng-container *ngIf = "data.length > 0; else noCart">
+              <tr *ngFor = "let d of data; let i = index" class="text-center">
+                <td class="product-remove"><a (click) = "removeFromCart(i)"><span   class="ion-ios-close"></span></a></td>
+
+                <td class="image-prod"><div class="img" style="background-image:url(assets/images/{{d.category_name}}/{{d.image}});"></div></td>
+
+                <td class="product-name">
+                  <h3 class="text-capitalize" >{{d.name}}</h3>
+                  <p>{{d.description}}</p>
+                </td>
+
+                <td class="price">${{d.price}}</td>
+
+                <td class="quantity">
+                  <div class="input-group mb-3">
+                    <input type="text" name="quantity" class="quantity form-control input-number" disabled value="1 kg">
+                  </div>
+                </td>
+              </tr>
+              </ng-container>
+              <ng-template #noCart>
+                <tr class="text-center">
+                  <td colspan="5">Cart is empty!</td>
+                </tr>
+              </ng-template>
+
+            </tbody>
+          </table>
+
+
+        </div>
+      </div>
+    </div>
+    <ng-container *ngIf = "data.length > 0;">
+    <div class="row justify-content-end">
+
+      <div class="col-lg-6 mt-5 cart-wrap ">
+        <div class="cart-total mb-3">
+          <h3>Shipping details</h3>
+          <form (ngSubmit) = "onSubmit(cartForm); cartForm.reset();" #cartForm = "ngForm" action="#" class="info">
+            <div class="form-group">
+              <label for="">Country</label>
+              <input type="text" ngModel name="country" required pattern = "^[A-z]{2,}(\s[A-z]{2,})*$" #country = "ngModel" class="form-control text-left px-3" placeholder="">
+
+              <div *ngIf = "country.invalid && (country.dirty || country.touched)">
+                <span *ngIf = "country.errors.pattern" >Country is not valid!</span>
+                <span *ngIf = "country.errors.required" >Country is required!</span>
+              </div>
+
+            </div>
+            <div class="form-group">
+              <label for="country">Adress</label>
+              <input type="text" ngModel name="address" required  pattern = "[A-z]+(\s(([1-9]\d*(\/[1-9]\d*)?)|[A-z]{2,}))*" #address = "ngModel" class="form-control text-left px-3" placeholder="">
+
+              <div *ngIf = "address.invalid && (address.dirty || address.touched)">
+                <span *ngIf = "address.errors.pattern" >Address is not valid!</span>
+                <span *ngIf = "address.errors.required" >Address is required!</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="country">Zip/Postal Code</label>
+              <input type="text" ngModel name="zip" required pattern = "[1-9]\d{4}$" #zip = "ngModel" class="form-control text-left px-3" placeholder="">
+
+              <div *ngIf = "zip.invalid && (zip.dirty || zip.touched)">
+                <span *ngIf = "zip.errors.pattern" >Postal code is not valid!</span>
+                <span *ngIf = "zip.errors.required" >Postal code is required!</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="submit" [disabled] = "!cartForm.valid" class="btn py-3 px-5" value="Order">
+            </div>
+            <div *ngIf = "result != null" class="form-group">
+              <span>{{ result }}</span>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-6 mt-5 cart-wrap ">
+        <div class="cart-total mb-3">
+          <h3>Cart Totals</h3>
+          <p class="d-flex total-price">
+            <span>Total</span>
+            <span>${{total_sum}}</span>
+          </p>
+        </div>
+
+      </div>
+    </div>
+      </ng-container>
+  </div>
+</section>

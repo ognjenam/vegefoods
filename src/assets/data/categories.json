@@ -1,0 +1,22 @@
+[
+  {
+    "id" : 1,
+    "name" : "fruits",
+    "image" : "fruits.jpg"
+  },
+  {
+    "id" : 2,
+    "name" : "vegetables",
+    "image" : "vegetables.jpg"
+  },
+  {
+    "id" : 3,
+    "name" : "juices",
+    "image" : "juices.jpg"
+  },
+  {
+    "id" : 4,
+    "name" : "granola",
+    "image" : "granola.jpg"
+  }
+]

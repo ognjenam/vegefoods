@@ -1,0 +1,67 @@
+<div class="hero-wrap hero-bread" style="background-image: url('assets/images/bg_1.jpg');">
+  <div class="container">
+    <div class="row no-gutters slider-text align-items-center justify-content-center">
+      <div class="col-md-9 text-center">
+
+        <h1 class="mb-0 bread">Contact us</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="ftco-section contact-section bg-light">
+  <div class="container">
+    <div class="row block-9">
+      <div class="col-md-12 order-md-last d-flex">
+
+        <form (ngSubmit) = "onSubmit(contactForm); contactForm.reset();" #contactForm = "ngForm" action="#" class="bg-white p-5 contact-form">
+          <h2 class="text-center">Send us a message</h2>
+          <div class="form-group">
+            <input type="text" ngModel name="name" pattern = "^[A-z]{2,}(\s[A-z]{2,})*$"  #name = "ngModel" required class="form-control" placeholder="Your Name">
+
+              <div *ngIf = "name.invalid && (name.dirty || name.touched)">
+                <span *ngIf = "name.errors.pattern" >Name is not valid!</span>
+                <span *ngIf = "name.errors.required" >Name is required!</span>
+              </div>
+
+
+          </div>
+
+
+
+
+
+          <div class="form-group">
+            <input type="text" ngModel name="email" required email class="form-control" #email = "ngModel" placeholder="Your Email">
+
+            <div *ngIf = "email.invalid && (email.dirty || email.touched)">
+              <span *ngIf = "email.errors.email" >E-mail is not valid!</span>
+              <span *ngIf = "email.errors.required" >E-mail is required!</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" ngModel name="subject" required class="form-control" #subject = "ngModel" placeholder="Subject">
+            <div *ngIf = "subject.invalid && (subject.dirty || subject.touched)">
+              <span *ngIf = "subject.errors.required" >Subject is required!</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea ngModel  name="message" cols="30" required rows="7" #message = "ngModel" class="form-control" placeholder="Message"></textarea>
+            <div *ngIf = "message.invalid && (message.dirty || message.touched)">
+              <span *ngIf = "message.errors.required" >Message is required!</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="submit" [disabled] = "!contactForm.valid" class="btn py-3 px-5" value="Send Message">
+          </div>
+          <div *ngIf = "result != null" class="form-group">
+            <span>{{ result }}</span>
+          </div>
+        </form>
+
+      </div>
+
+
+    </div>
+  </div>
+</section>

@@ -1,0 +1,10 @@
+input[type="submit"] {
+  background-color: #82ae46;
+  color: #fff
+}
+
+
+ input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched{
+  border: 1px solid #000;
+
+}

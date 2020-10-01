@@ -1,0 +1,15 @@
+h1.main-not-found{
+  font-size: 10rem;
+  color: #82ae46;
+  line-height: 1;
+
+}
+.sub-not-found{
+  font-size: 1.7rem;
+  color: #a4a5a6;
+
+}
+
+#not-found{
+  margin: 100px 0px;
+}
